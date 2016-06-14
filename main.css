@@ -1,0 +1,40 @@
+
+.subunit.SCT {
+  fill: lightblue;
+}
+
+.subunit.WLS {
+  fill: lightblue;
+}
+
+.subunit.NIR {
+  fill: lightblue;
+}
+
+.subunit.ENG {
+  fill: cyan;
+}
+
+.subunit.IRL {
+  fill: lightyellow;
+}
+
+.subunit-boundary {
+  fill: none;
+  stroke: black;
+  stroke-dasharray: 2,2;
+  stroke-linejoin: round;
+}
+
+.subunit-boundary.IRL {
+  stroke: red;
+
+}
+
+.subunit-label {
+  fill: green;
+  fill-opacity: .5;
+  font-size: 20px;
+  font-weight: 300;
+  text-anchor: middle;
+}
